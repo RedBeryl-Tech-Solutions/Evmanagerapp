@@ -1,0 +1,23 @@
+{
+  "annotations": {
+    "changelogDate": "20240522084243"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "Category",
+  "relationships": [
+    {
+      "otherEntityName": "subscriptionDetails",
+      "relationshipName": "subscriptionDetails",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}
